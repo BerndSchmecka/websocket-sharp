@@ -96,6 +96,12 @@ namespace WebSocketSharp.Server
       }
     }
 
+    public WebSocketContext Context {
+      get {
+        return _context;
+      }
+    }
+
     /// <summary>
     /// Gets the query string for a session.
     /// </summary>
